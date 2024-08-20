@@ -12,7 +12,4 @@ async def async_comprehension():
     """
     Async comprehension with async generator
     """
-    #num = []
-    #async for i in async_generator():
-    #    num.append(i)
     return [i async for i in async_generator()]
