@@ -3,11 +3,11 @@
 Generator
 """
 import asyncio
-from typing import Generator
+from typing import AsyncGenerator
 import random
 
 
-async def async_generator() -> Generator[float, None, None]:
+async def async_generator() -> AsyncGenerator[float, None]:
     """
     Loop 10 times and yield a number
     """
